@@ -1,0 +1,25 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+*.backup
+*.bak
+
+# Ignore local .terraform directories
+.terraform/
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore variable definition files (if they contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Ignore lock file (optional, regenerate with `terraform init`)
+.terraform.lock.hcl
+Add .gitignore for Terraform
