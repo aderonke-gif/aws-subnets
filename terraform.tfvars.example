@@ -1,0 +1,20 @@
+region = "us-east-1"
+vpc_id = "vpc-00e27b5fd2992d874"
+
+subnet_cidrs = [
+  "10.0.0.0/25",
+  "10.0.0.128/25"
+]
+
+azs = [
+  "us-east-1a",
+  "us-east-1b"
+]
+
+name_prefix = "app-subnet"
+map_public_ip_on_launch = true
+
+tags = {
+  Owner       = "Olatunde"
+  Environment = "dev"
+}
